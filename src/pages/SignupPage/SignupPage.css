@@ -1,0 +1,20 @@
+form {
+    margin-top: 20px;
+}
+.spanHeading{
+    text-decoration: underline;
+    color: teal;
+}
+.spanHeading:hover{
+    
+    color: black;
+    cursor: pointer;
+}
+@media screen and (max-width:767px) and (min-width:280px) {
+    .mainBox{
+        width: 100%;
+    }
+    .backImage{
+        display: none;
+    }
+}

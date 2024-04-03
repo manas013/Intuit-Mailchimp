@@ -1,0 +1,283 @@
+
+nav{
+    border-top: 1px solid black;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.price{
+    
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    /* border: 1px solid red; */
+    width: 66.666%;
+    margin: auto;
+    margin-top: 50px;
+    gap: 20rem;
+
+}
+
+.PriceList{ 
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+
+}
+
+.PriceList label{
+    border: 0.5px solid rgba(0, 0, 0, 0.6);
+    padding: 11px 13px;
+    border-right: 0px;
+    opacity: 0.7;
+}
+.PriceList select{
+    height: 50px;
+    font-size: 20px;
+}
+
+.cu select{
+    font-size: 17px;
+    border: none;
+    font-weight: 600;   
+}
+
+#p{
+    width: 12rem;
+}
+
+/* Price table */
+
+
+
+
+/* dotted list */
+
+.first{
+    margin-top: 465px;
+}
+
+.price_table{
+    /* border: 1px solid red; */
+    width: 66.666%;
+    margin: auto;
+    display: flex;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.lis{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 10px;
+    justify-content: center;
+    align-items:baseline;
+}
+span{
+    border-bottom: 1px dashed #000;
+}
+/* u{
+    text-decoration: dotted;
+} */
+
+/* bordered price */
+
+.convert{
+    display: flex;
+}
+.border_price{
+    width: 84%;
+    /* border: 1px solid green; */
+    display: flex;
+}
+
+.pirce_box{
+    border: 0.5px solid rgba(0, 0, 0, 0.4);
+    border-right: 0px;
+}
+.pirce_box2{
+    border: 0.5px solid rgba(0, 0, 0, 0.4);
+
+}
+.cross{
+    opacity: 0.3;
+}
+
+.standard_box{
+    border: 0.5px solid rgba(0, 0, 0, 0.4);
+    padding-top: 0;
+    border-right: 0px;
+    
+
+}
+
+.recommend{
+    text-align: center;
+    background: #C5DBF2;
+    font-size: 13px;
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.4);
+    padding: 5px;
+    
+}
+
+.recommend_hid{
+    visibility: hidden;
+}
+
+.stan{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    gap: 32px;
+}
+
+.stan1{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    gap: 32px;
+    
+}
+
+.about{
+    width: 66.666%;
+    margin: auto;
+    /* border: 1px solid red; */
+    display: flex;
+    /* padding: 5px; */
+    justify-content: space-evenly;
+    align-items: baseline;
+    
+
+}
+
+.recommend_hid-2{
+    visibility: hidden;
+    border: 1px solid black;
+    width: 0px
+}
+
+.about div{
+    display: flex;
+    align-items: baseline;
+    
+}
+
+.about p:hover{
+    background-color: yellow;
+    cursor: pointer;
+}
+
+.compare{
+   text-align: center;
+}
+.btn{
+    padding: 12px;
+    border-radius: 35px;
+    border:1px solid black;
+}
+
+
+/*  */
+
+
+.aptr{
+    margin: auto;
+    width: 80%;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+.One{
+    width: 40%;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.One h1{
+    font-weight: 400;
+}
+
+.vert{
+    border-right: 1px solid black;
+    height: 260px;
+}
+
+.two{
+    width: 40%;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-left: 40px;
+}
+.two h1{
+    font-weight: 400;
+}
+
+.fre:hover{
+    background-color: yellow;
+    cursor: pointer;
+}
+
+
+
+/* you be in good company */
+.you{
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+.you h1{
+    text-align: center;
+}
+.company_img img{
+    width: 10rem;
+}
+
+.company_img{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    gap: 85px;
+}
+.re{
+    margin: auto;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 100px;
+}
+.re h4{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.re p{
+    font-size: 13px;
+}
+
+.re p:hover{
+    background-color: yellow;
+    cursor: pointer;
+}
+
+
+
